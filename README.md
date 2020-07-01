@@ -16,7 +16,7 @@ spark streaming kafka with twitter via DStreams
 - implement some logic inside the spark to consume data from kakfa, process data, and send results to kafka.
 - use object class in spark to be the engine to send results back to kakfa.
 
-#To run Spark :
+# To run Spark :
 - start-dfs.sh      # start the hadoop daemons
 - start-master.sh   # start the spark cluster master 
 - start-slaves.sh   # start the spark cluster slaves
