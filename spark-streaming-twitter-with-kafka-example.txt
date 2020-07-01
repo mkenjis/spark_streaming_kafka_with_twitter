@@ -25,10 +25,10 @@ import twitter4j.conf.ConfigurationBuilder
 
 val builder = new ConfigurationBuilder()
 builder.setDebugEnabled(true)
-builder.setOAuthConsumerKey("PCx45utcQw1DjUtz7wDh2LSCY")
-builder.setOAuthConsumerSecret("BihPBN11zcRuxNQXRxT5bBLlHhPCP2TTld7soqkv6R2v0koNh6")
-builder.setOAuthAccessToken("39749612-mkEB2qh7ao9BgiffFXwuGfpyiulrtE031wO5oBX2y")
-builder.setOAuthAccessTokenSecret("Z1jiSVMMExJ3XWqWvYChnOTHihm4jRNx35JhObW7xvnpg")
+builder.setOAuthConsumerKey("<ConsumerKey>")
+builder.setOAuthConsumerSecret("<ConsumerSecret>")
+builder.setOAuthAccessToken("<AccessToken>")
+builder.setOAuthAccessTokenSecret("<AccessTokenSecret>")
 
 val auth = new OAuthAuthorization(builder.build)
 
